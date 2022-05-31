@@ -1,0 +1,33 @@
+$primary: #8E66FF;
+$dark: #855FF2;
+$light: #FFF;
+$secondary: #4CD7AD;
+
+.no-style-link{
+    position: relative;
+    color: $light;
+    text-decoration: none;
+    &:hover{
+        color: $light;
+    }
+    &:before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        transform: scaleX(0);
+        transition: transform 0.3s ease;
+    }
+    &:hover::before{
+        transform: scaleX(1);
+    }
+}
+
+.p-15{
+    padding: 8rem;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
