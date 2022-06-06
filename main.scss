@@ -26,6 +26,13 @@ $secondary: #4CD7AD;
     }
 }
 
+.no-underline-link{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
 .p-15{
     padding: 8rem;
 }
