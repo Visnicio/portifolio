@@ -29,6 +29,14 @@
   text-decoration: none;
 }
 
+@font-face {
+  font-family: montserrat;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+div {
+  font-family: montserrat;
+}
+
 .p-15 {
   padding: 8rem;
 }
